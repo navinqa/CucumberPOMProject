@@ -31,6 +31,7 @@ public class LoginPageSteps_PF {
 
     @And("user is on login page")
     public void userIsOnLoginPage() {
+        System.out.println("This is login page open");
         driver.navigate().to("https://edplex.skool360.com/");
     }
 
